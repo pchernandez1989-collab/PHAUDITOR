@@ -1,0 +1,11 @@
+# Clonar repositorio vacío
+git clone https://github.com/TU_USUARIO/PHAUDITOR.git
+
+# Copiar la estructura del proyecto
+cd PHAUDITOR
+mkdir frontend backend database docs config
+
+# Subir cambios
+git add .
+git commit -m "Estructura inicial de PHAUDITOR"
+git push origin main
