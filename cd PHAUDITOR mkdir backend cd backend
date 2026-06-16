@@ -13,5 +13,7 @@ $msiParams = @(
 msiexec.exe @msiParams
 npm install express cors @supabase/supabase-js
 node server.js
+cd PHAUDITOR/backend
+node server.js
 
 
