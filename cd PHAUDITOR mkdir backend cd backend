@@ -11,3 +11,4 @@ $msiParams = @(
     'ADD_PATH=1'
 )
 msiexec.exe @msiParams
+npm install express cors @supabase/supabase-js
